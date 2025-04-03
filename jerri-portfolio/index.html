@@ -43,7 +43,7 @@
                 <a href="#skill" class="nav-item nav-link">Skill</a>
                 <a href="#service" class="nav-item nav-link">Service</a>
                 <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
-                <a href="#testimonial" class="nav-item nav-link">Review</a>
+                <!-- <a href="#testimonial" class="nav-item nav-link">Review</a> -->
                 <a href="#blog" class="nav-item nav-link">Blog</a>
                 <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
@@ -77,19 +77,20 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-                    <img class="main-img img-fluid w-100 rounded-circle shadow-sm" src="img/main1.jpeg" alt="" style="height:28em">
+                    <img class="main-img img-fluid w-100 rounded-circle shadow-sm" src="img/main1.jpeg" alt="">
                 </div>
                 <div class="col-lg-7 text-center text-lg-left">
                     <h3 class="text-white font-weight-normal mb-3">Hello I'm</h3>
-                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">GYANESWARA RAO</h1>
+                    <h1 class="name display-3 text-uppercase text-pink mb-2" style="-webkit-text-stroke: 2px #ffffff;">GYANESWARA RAO</h1>
                     <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
                     <div class="typed-text d-none">Web Developer, Angular Developer, Front End Developer, UI/UX Designer</div>
                     <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
-                        <a href="" class="btn btn-outline-light mr-5">Download CV</a>
-                        <a href="" class="btn btn-outline-light mr-5">View CV</a>
+                        <a href="#" id="downloadBtn" class="btn btn-outline-light mr-5">Download CV</a>
+                        <a href="#" target="_blank" id="viewBtn" class="btn btn-outline-light mr-5">View CV</a>
                         <!-- <button type="button" class="btn-play" data-toggle="modal"
                             data-src="" data-target="#videoModal">
                             <span></span>
+                            <a href="resume.pdf" target="_blank">View CV</a>
                         </button> -->
                         <!-- <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5> -->
                     </div>
@@ -113,18 +114,18 @@
                 </div>
                 <div class="col-lg-7">
                     <h3 class="mb-4">UI/UX Designer & Front End - Angular Developer</h3>
-                    <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet lorem diam dolor justo et dolor dolor dolor</p>
+                    <p>Passionate UI/UX Designer and Front-End Angular Developer with a keen eye for design and a strong technical foundation. Skilled in creating intuitive, user-friendly interfaces and developing scalable, high-performance web applications. Experienced in designing seamless user experiences, building responsive layouts, and optimizing front-end performance. Proficient in Angular, CSS, and modern UI frameworks to craft engaging digital solutions.</p>
                     <div class="row mb-3">
                         <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Gyaneswara Rao</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">11 August 1996</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">B.E</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">5+ Years</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+91 6362010651</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+91 8328614316</span></h6></div>
                         <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">info.jerri@gmail.com</span></h6></div>
-                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">37/2-1 Hyderabad, TG, IND</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Hyderabad, TG, IND</span></h6></div>
                         <!-- <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div> -->
                     </div>
-                    <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <!-- <a href="" class="btn btn-outline-primary mr-4">Hire Me</a> -->
                     <a href="" class="btn btn-outline-primary">Learn More</a>
                 </div>
             </div>
@@ -412,7 +413,7 @@
 
 
     <!-- Testimonial Start -->
-    <div class="container-fluid py-5" id="testimonial">
+    <!-- <div class="container-fluid py-5" id="testimonial">
         <div class="container">
             <div class="position-relative d-flex align-items-center justify-content-center">
                 <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
@@ -446,7 +447,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
@@ -507,29 +508,27 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
-                        <div id="success"></div>
                         <form name="sentMessage" id="contactForm" novalidate="novalidate">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
                                     <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
+                                        required  />
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
                                     <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
+                                    required />
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
                                 <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
-                                    required="required" data-validation-required-message="Please enter a subject" />
+                                required />
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
                                 <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
+                                required ></textarea>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div>
@@ -537,6 +536,7 @@
                                     Message</button>
                             </div>
                         </form>
+                        <div id="statusMessage" class="mt-3"></div>
                     </div>
                 </div>
             </div>
@@ -563,11 +563,13 @@
                 <span class="px-3">|</span>
                 <a class="text-white" href="#">Help</a>
             </div>
-            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="">/a>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="">RAO
             </p>
         </div>
     </div>
     <!-- Footer End -->
+
+    <div id="popup">⚠️ This section is still updating!</div>
 
     <!-- Scroll to Bottom -->
     <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
@@ -585,6 +587,8 @@
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
     <script src="lib/isotope/isotope.pkgd.min.js"></script>
     <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <!-- EmailJS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
     <!-- Contact Javascript File -->
     <script src="mail/jqBootstrapValidation.min.js"></script>

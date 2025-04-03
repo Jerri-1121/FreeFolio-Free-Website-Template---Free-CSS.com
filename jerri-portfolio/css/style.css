@@ -6355,7 +6355,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #0BCEAF !important;
+  background-color: #e2686a !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9525,7 +9525,11 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #0BCEAF !important;
+  color: #e2686a !important;
+}
+
+.text-pink{
+  color: pink;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9803,7 +9807,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: #e2686a;
 }
 
 @media (max-width: 991.98px) {
@@ -9983,8 +9987,30 @@ h6,
   list-style-type: none;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 667px) {
   .main-img {
     height: 16em;
   }
+}
+.main-img{
+  height: auto;
+  max-height: 27em;
+}
+
+
+
+/* javascript sections */
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  z-index: 1000;
+  font-size: 20px;
 }
